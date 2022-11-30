@@ -13,6 +13,7 @@
 		20BE97F429371211001FD3FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20BE97F229371211001FD3FA /* Main.storyboard */; };
 		20BE97F629371212001FD3FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20BE97F529371212001FD3FA /* Assets.xcassets */; };
 		20BE97F929371212001FD3FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20BE97F729371212001FD3FA /* LaunchScreen.storyboard */; };
+		20BE9801293713E0001FD3FA /* StickyHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE9800293713E0001FD3FA /* StickyHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		20BE97F529371212001FD3FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20BE97F829371212001FD3FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20BE97FA29371212001FD3FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20BE9800293713E0001FD3FA /* StickyHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				20BE97EC29371211001FD3FA /* AppDelegate.swift */,
 				20BE97EE29371211001FD3FA /* SceneDelegate.swift */,
+				20BE9800293713E0001FD3FA /* StickyHeader.swift */,
 				20BE97F029371211001FD3FA /* ViewController.swift */,
 				20BE97F229371211001FD3FA /* Main.storyboard */,
 				20BE97F529371212001FD3FA /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20BE97F129371211001FD3FA /* ViewController.swift in Sources */,
+				20BE9801293713E0001FD3FA /* StickyHeader.swift in Sources */,
 				20BE97ED29371211001FD3FA /* AppDelegate.swift in Sources */,
 				20BE97EF29371211001FD3FA /* SceneDelegate.swift in Sources */,
 			);
